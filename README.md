@@ -6,4 +6,4 @@
 
 ## Демонстрация игры "Калькулятор"
 
-[![asciicast](https://asciinema.org/a/connect/3d726da6-f835-449e-a73b-e06eae767af7.svg)](https://asciinema.org/a/connect/3d726da6-f835-449e-a73b-e06eae767af7)
+[![asciicast](  https://asciinema.org/a/7aJWKio4nQaP4KYR2eYwN9Vwc.svg)](  https://asciinema.org/a/7aJWKio4nQaP4KYR2eYwN9Vwc)
