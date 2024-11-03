@@ -11,5 +11,5 @@
 =======
 ## Демонстрация игры "НОД"
 
-[![asciicast](https://asciinema.org/a/a/SH9nPQyPb8xxxOsMLqJGACLY7.svg)](https://asciinema.org/a/a/SH9nPQyPb8xxxOsMLqJGACLY7)
->>>>>>> dce3b53 (выполнил седьмой этап)
+[![asciicast](https://asciinema.org/a/SH9nPQyPb8xxxOsMLqJGACLY7.svg)](https://asciinema.org/a/SH9nPQyPb8xxxOsMLqJGACLY7)
+
