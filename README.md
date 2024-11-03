@@ -4,6 +4,12 @@
 
 [![asciicast](https://asciinema.org/a/jJ81w55kL9itg2TON9OhD7xot.svg)](https://asciinema.org/a/jJ81w55kL9itg2TON9OhD7xot)
 
+<<<<<<< HEAD
 ## Демонстрация игры "Калькулятор"
 
 [![asciicast](  https://asciinema.org/a/7aJWKio4nQaP4KYR2eYwN9Vwc.svg)](  https://asciinema.org/a/7aJWKio4nQaP4KYR2eYwN9Vwc)
+=======
+## Демонстрация игры "НОД"
+
+[![asciicast](https://asciinema.org/a/a/SH9nPQyPb8xxxOsMLqJGACLY7.svg)](https://asciinema.org/a/a/SH9nPQyPb8xxxOsMLqJGACLY7)
+>>>>>>> dce3b53 (выполнил седьмой этап)
