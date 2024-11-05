@@ -1,6 +1,20 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/RatiborM/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/RatiborM/python-project-49/actions)
 
+ИГРЫ РАЗУМА
+(5 игр)
+
+Запуск игр
+brain-even - Проверка на чётность
+
+brain-calc  - Калькулятор
+
+brain-gcd - Наибольший общий делитель (НОД)
+
+brain-progression - Арифметическая прогрессия
+
+brain-prime - Простое ли число?
+
 Игра "Проверка на чётность".
 
 Вам показывается случайное число. Нужно ответить 'yes', если число чётное, или 'no' — если нечётное.
