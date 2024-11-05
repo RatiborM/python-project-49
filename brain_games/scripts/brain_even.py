@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Brain-Even Game start."""
+"""Запуск для четное или нет"""
 
 
 from brain_games.engine import run_game

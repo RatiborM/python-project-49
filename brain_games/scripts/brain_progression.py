@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Brain Progression Game start."""
+"""Запуск для ариф прогрессии"""
 
 
 from brain_games.engine import run_game

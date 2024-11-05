@@ -1,4 +1,4 @@
-"""Brain-GCD Game."""
+"""НОД"""
 
 from math import gcd
 from random import randint

@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Brain Prime Game start."""
+"""Запуск для простого числа"""
 
 
 from brain_games.engine import run_game

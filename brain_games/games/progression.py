@@ -1,4 +1,4 @@
-"""Brain Progression Game."""
+"""Арифметическая прогрессия"""
 
 from random import randint
 

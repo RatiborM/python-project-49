@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Brain-GCD Game start."""
+"""Запуск для НОД"""
 
 
 from brain_games.engine import run_game

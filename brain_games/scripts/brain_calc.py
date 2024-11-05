@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Brain-Calc Game start."""
+"""Запуск для калькулятора"""
 
 
 from brain_games.engine import run_game

@@ -1,4 +1,4 @@
-"""Brain-Even Game."""
+"""Чётное ли число?"""
 
 from random import randint
 

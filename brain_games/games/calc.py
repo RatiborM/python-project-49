@@ -1,4 +1,4 @@
-"""Brain-Calc Game."""
+"""Калькулятор"""
 
 from random import choice, randint
 from operator import add, sub, mul

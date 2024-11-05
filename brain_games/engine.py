@@ -1,4 +1,4 @@
-"""Engine for all Brain Games."""
+"""Общий движок для всех игр"""
 
 import prompt
 
