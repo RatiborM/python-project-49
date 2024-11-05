@@ -1,20 +1,22 @@
-import random
-import operator
+"""Brain-Calc Game."""
 
-DESCRIPTION = "What is the result of the expression?"
+from random import choice, randint
+from operator import add, sub, mul
 
-OPERATIONS = {
-    '+': operator.add,
-    '-': operator.sub,
-    '*': operator.mul
-}
+DESCRIPTION = 'What is the result of the expression?'
 
-def generate_question_answer():
-    num1 = random.randint(1, 100)
-    num2 = random.randint(1, 100)
-    operation = random.choice(list(OPERATIONS.keys()))
 
-    question = f"{num1} {operation} {num2}"
-    correct_answer = str(OPERATIONS[operation](num1, num2))
-
-    return question, correct_answer
+def make_question_and_correct_answer():
+    """Make game question and answer."""
+    min_number = 1
+    max_number = 12
+    operand_first = randint(min_number, max_number)
+    operand_second = randint(min_number, max_number)
+    operation, operator = choice([
+        (add, '+'),
+        (sub, '-'),
+        (mul, '*'),
+    ])
+    correct_answer = operation(operand_first, operand_second)
+    question = f"{operand_first} {operator} {operand_second}"
+    return question, str(correct_answer)

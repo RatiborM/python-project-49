@@ -1,14 +1,14 @@
 #!/usr/bin/env python
-"""Brain-Even Game start."""
+"""Brain-Calc Game start."""
 
 
 from brain_games.engine import run_game
-from brain_games.games import even
+from brain_games.games import calc
 
 
 def main():
-    """Start the "Brain-Even Game"."""
-    run_game(even)
+    """Start the "Brain-Calc Game"."""
+    run_game(calc)
 
 
 if __name__ == '__main__':
