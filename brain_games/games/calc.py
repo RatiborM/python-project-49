@@ -2,6 +2,8 @@
 
 import random
 
+DESCRIPTION = 'What is the result of the expression?'
+
 # Глобальные переменные
 MIN_NUMBER = 1
 MAX_NUMBER = 10
