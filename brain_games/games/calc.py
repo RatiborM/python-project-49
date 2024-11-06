@@ -2,6 +2,11 @@
 
 import random
 
+# Глобальные переменные
+MIN_NUMBER = 1
+MAX_NUMBER = 10
+OPERATORS = ['+', '-', '*']
+
 def calculate(operator, num1, num2):
     if operator == '+':
         return num1 + num2

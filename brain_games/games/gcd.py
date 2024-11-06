@@ -2,6 +2,10 @@
 
 import random
 
+# Глобальные переменные
+MIN_NUMBER = 1
+MAX_NUMBER = 100
+
 def calculate_gcd(num1, num2):
     while num2:
         num1, num2 = num2, num1 % num2

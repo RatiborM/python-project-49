@@ -2,6 +2,13 @@
 
 from random import randint
 
+# Глобальные переменные
+PROGRESSION_LENGTH = 10
+MIN_START = 1
+MAX_START = 10
+MIN_STEP = 1
+MAX_STEP = 5
+
 DESCRIPTION = 'What number is missing in the progression?'
 
 
