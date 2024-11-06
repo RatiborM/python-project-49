@@ -2,7 +2,7 @@
 
 import random
 
-DESCRIPTION = "Answer 'yes' if the number is even, otherwise answer 'no'."
+DESCRIPTION = Answer "yes" if the number is even, otherwise answer "no".
 
 # Глобальные переменные
 MIN_NUMBER = 1
