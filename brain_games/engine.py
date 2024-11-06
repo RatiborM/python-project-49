@@ -1,10 +1,8 @@
 """Общий движок для всех игр"""
 
+import prompt
 # Глобальная переменная для количества раундов
 ROUNDS_TO_WIN = 3
-
-import prompt
-
 MAX_ROUNDS = 3
 
 
