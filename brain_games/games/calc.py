@@ -1,22 +1,19 @@
 """Калькулятор"""
 
-from random import choice, randint
-from operator import add, sub, mul
+import random
 
-DESCRIPTION = 'What is the result of the expression?'
-
+def calculate(operator, num1, num2):
+    if operator == '+':
+        return num1 + num2
+    elif operator == '-':
+        return num1 - num2
+    elif operator == '*':
+        return num1 * num2
 
 def make_question_and_correct_answer():
-    """Make game question and answer."""
-    min_number = 1
-    max_number = 12
-    operand_first = randint(min_number, max_number)
-    operand_second = randint(min_number, max_number)
-    operation, operator = choice([
-        (add, '+'),
-        (sub, '-'),
-        (mul, '*'),
-    ])
-    correct_answer = operation(operand_first, operand_second)
-    question = f"{operand_first} {operator} {operand_second}"
-    return question, str(correct_answer)
+    num1 = random.randint(1, 10)
+    num2 = random.randint(1, 10)
+    operator = random.choice(['+', '-', '*'])
+    question = f"{num1} {operator} {num2}"
+    correct_answer = str(calculate(operator, num1, num2))
+    return question, correct_answer

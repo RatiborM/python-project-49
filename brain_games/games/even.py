@@ -1,18 +1,12 @@
 """Чётное ли число?"""
 
-from random import randint
+import random
 
-DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
-
+def is_even(number):
+    return number % 2 == 0
 
 def make_question_and_correct_answer():
-    """Make game question and answer."""
-    min_number = 1
-    max_number = 99
-    number = randint(min_number, max_number)
+    number = random.randint(1, 100)
     question = str(number)
-    if number % 2 == 0:
-        correct_answer = 'yes'
-    else:
-        correct_answer = 'no'
+    correct_answer = 'yes' if is_even(number) else 'no'
     return question, correct_answer
