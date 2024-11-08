@@ -19,8 +19,9 @@ def calculate(operator, num1, num2):
 
 
 def make_question_and_correct_answer():
-    num1 = random.randint(1, 10)
-    num2 = random.randint(1, 10)
+    num1 = random.randint(MIN_NUMBER, MAX_NUMBER)
+    num2 = random.randint(MIN_NUMBER, MAX_NUMBER)
+    operator = random.choice(OPERATORS)  # Добавлено определение оператора
     question = f"{num1} {operator} {num2}"
     correct_answer = str(calculate(operator, num1, num2))
     return question, correct_answer
