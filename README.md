@@ -13,9 +13,6 @@
 Poetry 1.2.0 версии и выше
 
 
-Так же вам потребуется установленная библиотека prompt.
-
-
 ### Использование
 Чтобы запустить игры на вашем компьютере необходимо сначала установить все, что прописано выше, а после склонировать проект с GitHub себе на компьютер:
 
@@ -23,11 +20,10 @@ Poetry 1.2.0 версии и выше
 
 ## Установка
 
-`poetry build` -сборка проекта
 
-`make package-install` -установка пакета в систему
+`poetry install` -установка пакета в систему
 
-[![asciicast](https://asciinema.org/a/xyM6rujnc5oc7IWn7JhLGcMsO.svg)](https://asciinema.org/a/xyM6rujnc5oc7IWn7JhLGcMsO)
+[![asciicast](https://asciinema.org/a/vQpuX0QqHJf7CrfdrkZaMJ11T.svg)](https://asciinema.org/a/vQpuX0QqHJf7CrfdrkZaMJ11T)
 
 ### Запуск игр
 #### `brain-even` - Проверка на чётность
