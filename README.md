@@ -4,26 +4,22 @@
 # ИГРЫ РАЗУМА
 ### (5 игр)
 
-### Технологии:
-Для создания данного проекта использовался Python версии 3.10.
-
-
-Так же в проекте используется pip 19 версии и выше. 
-
-Poetry 1.2.0 версии и выше
-
-
-### Использование
-Чтобы запустить игры на вашем компьютере необходимо сначала установить все, что прописано выше, а после склонировать проект с GitHub себе на компьютер:
-
-`git clone git@github.com:RatiborM/python-project-49.git`
 
 ## Установка
 
+Чтобы запустить игры на вашем компьютере сначала клонируем проект командой:
 
-`poetry install` -установка пакета в систему
+`git clone git@github.com:RatiborM/python-project-49.git`
 
-[![asciicast](https://asciinema.org/a/vQpuX0QqHJf7CrfdrkZaMJ11T.svg)](https://asciinema.org/a/vQpuX0QqHJf7CrfdrkZaMJ11T)
+и далее:
+
+`make install`- установка зависимостей
+
+`make build` - сборка пакета, создание .whl файла
+
+`make package-install`- установка собранного пакета в систему.
+
+[![asciicast](https://asciinema.org/a/lfZRISWi0ams0qpqbB6FFzxqF.svg)](https://asciinema.org/a/lfZRISWi0ams0qpqbB6FFzxqF)
 
 ### Запуск игр
 #### `brain-even` - Проверка на чётность
