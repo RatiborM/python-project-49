@@ -1,14 +1,11 @@
 install:
-	make install
+	poetry install
 
 brain-games:
 	poetry run brain-games
 
-package-install:
-	pip install --user --force-reinstall dist/*.whl
-
 build:
-	make build
+	poetry build
 
 publish:
 	poetry publish --dry-run
